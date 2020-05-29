@@ -1,0 +1,121 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: 'Bray Notes.ttf';
+    src: url(/fonts/Bray\ Notes.ttf);
+}
+
+.imgx{
+    width: 230px;
+    height:230px;
+    padding-bottom: 20px;
+}
+
+#imgxb{
+    border-radius: 30px;
+}
+
+.zoom{
+    overflow: hidden;
+}
+
+.zoom img{
+    max-width: 100%;
+    -moz-transition:all 0.3s ;
+    -webkit-transition: all 0.2s;
+    transition: all 0.3s;
+}
+.zoom:hover img{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    border-radius: 20px;
+}
+
+#b3{
+    background-color: white;
+}
+
+.navbar-nav a{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+.navbar-light .navbar-brand{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.header-site{
+    background-image: url('../img/img1.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+.imgzoom{
+    align-items: center;
+}
+
+.espace-zoom{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#color-menu{
+    color: darkgrey;
+}
+
+#color-menu:hover{
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.box {
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+#contato{
+    background-color: black;
+    color: cadetblue;
+}
+
+.box span {
+    display: inline-block;
+    height: 100%;
+}
+
+.slide{
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.margin{
+    padding-bottom: 100px;
+    padding-top:100px;
+}
+
+#rodape{
+    padding-top: 90px;
+    padding-bottom: 80px;
+    background-color: black;
+    color: white;
+}
+.imgq{
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid black;
+    height: 500px;
+}
